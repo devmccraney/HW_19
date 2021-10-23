@@ -36,22 +36,23 @@ nav.top-nav ul li{
 nav.top-nav a{
     text-decoration: none;
     color: black;
+    padding: 12px 20px;
+}
+
+nav.top-nav a:hover{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-bottom: 4px solid black;
+}
+
+.active{
+    font-weight: bold;
 }
 
 ul li{
     cursor:pointer;
     position:relative;
-}
-
-li:hover::after{
-    position:absolute;
-    content: "";
-    height: 3px;
-    width:100%;
-    background-color:black;
-    left:0;
-    bottom:-7px;
-    animation: appear 0.3s linear;
 }
 
 .case{
