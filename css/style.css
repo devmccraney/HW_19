@@ -106,10 +106,10 @@ h2{
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom:50px;
+    margin:auto;
 }
 
 .aboutText{
-    padding-left:50px;
     width:50%;
 }
 
@@ -119,7 +119,7 @@ h2{
 }
 
 .aboutPhoto{
-    padding-right:50px;
+    width: 30%;
 }
 
 .skillTitle{
@@ -241,11 +241,17 @@ footer{
 
     .aboutMe{
         flex-direction: column;
+        justify-content: center;
     }
 
     .aboutText{
+        text-align: center;
         width: 100%;
-        padding-left:0px;
+    }
+
+    .aboutPhoto{
+        text-align: center;
+        width:100%;
     }
 
     .skills{
