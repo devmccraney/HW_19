@@ -60,35 +60,6 @@ ul li{
     position:relative;
 }
 
-.case:hover::after{
-    position:absolute;
-    content: "";
-    height: 3px;
-    width:33%;
-    background-color:black;
-    left:0;
-    bottom:-7px;
-    animation: appear2 0.3s linear;
-}
-
-@keyframes appear{
-    from{
-        width:0;
-    }
-    to{
-        width:100%;
-    }
-}
-
-@keyframes appear2{
-    from{
-        width:0;
-    }
-    to{
-        width:33%;
-    }
-}
-
 /* content */
 h1{
     font-family: 'Arima Madurai', cursive;
@@ -228,6 +199,19 @@ h3{
 .projects p{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
+}
+
+.projects a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+}
+
+.projects a:hover{
+    padding: 10px 0px;
+    border-bottom: 4px solid black;
 }
 
 
